@@ -10,5 +10,5 @@ jobs:
       - name: checkout codes
         uses: actions/checkout@v2
 
-        -name: deploy step
+      - name: deploy step
         run: echo "website deployed successfully"
